@@ -2,7 +2,7 @@ var mongoose= require('mongoose');
 
 var User=mongoose.model('users',{
     email:{
-        type: 'String',
+        type: String,
         trim:true,
         minlength: 1,
         required: true
